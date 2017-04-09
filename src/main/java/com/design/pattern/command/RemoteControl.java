@@ -1,5 +1,8 @@
 package com.design.pattern.command;
 
+import com.design.pattern.command.impl.NoCommand;
+import com.design.pattern.utils.Constants;
+
 import java.util.Arrays;
 
 /**
@@ -36,9 +39,12 @@ public class RemoteControl {
 
     @Override
     public String toString() {
-        return "RemoteControl{" +
-                "onCommands=" + Arrays.toString(onCommands) +
-                ", offCommands=" + Arrays.toString(offCommands) +
-                '}';
+        StringBuilder sb = new StringBuilder();
+        sb.append("\n-------------------Remote Control-----------------\n");
+        for (int i = 0; i < onCommands.length; i++) {
+            sb.append("[slot " + i + "] " + onCommands[i].getClass().getName() + "  "
+                    + offCommands[i].getClass().getName() + "\n");
+        }
+        return sb.toString();
     }
 }

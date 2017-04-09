@@ -1,4 +1,4 @@
-package com.design.pattern.command;
+package com.design.pattern.utils;
 
 /**
  * Created by dream on 09/04/2017.

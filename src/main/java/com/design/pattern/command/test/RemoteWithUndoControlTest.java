@@ -1,12 +1,17 @@
-package com.design.pattern.command;
+package com.design.pattern.command.test;
+
+import com.design.pattern.command.Light;
+import com.design.pattern.command.RemoteControlWithUndo;
+import com.design.pattern.command.impl.LightOffCommand;
+import com.design.pattern.command.impl.LightOnCommand;
 
 /**
  * Created by dream on 09/04/2017.
  */
-public class RemoteLoader {
+public class RemoteWithUndoControlTest {
 
     public static void main(String[] args) {
-        RemoteControl remoteControl = new RemoteControl();
+        RemoteControlWithUndo remoteControl = new RemoteControlWithUndo();
 
         Light livingRoomLight = new Light("Living Room");
 
@@ -16,17 +21,17 @@ public class RemoteLoader {
 
         remoteControl.setCommand(0, livingRoomLightOn, livingRoomLightOff);
 
-        System.out.println(remoteControl.toString());
-
         remoteControl.onButtonWasPressed(0);
         remoteControl.offButtonWasPressed(0);
 
         System.out.println(remoteControl.toString());
 
+        remoteControl.undoButtonWasPressed();
         remoteControl.offButtonWasPressed(0);
         remoteControl.onButtonWasPressed(0);
 
         System.out.println(remoteControl.toString());
 
+        remoteControl.undoButtonWasPressed();
     }
 }

@@ -1,11 +1,11 @@
-package com.design.pattern.command;
+package com.design.pattern.command.impl;
+
+import com.design.pattern.command.CeilingFan;
 
 /**
  * Created by dream on 09/04/2017.
  */
 public class CeilingFanLowCommand extends CeilingFanBaseCommand {
-    CeilingFan ceilingFan;
-    int preSpeed;
 
     public CeilingFanLowCommand(CeilingFan ceilingFan) {
         this.ceilingFan = ceilingFan;
