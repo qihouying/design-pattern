@@ -2,7 +2,7 @@ package com.design.pattern.abstractFacotry.impl;
 
 import com.design.pattern.abstractFacotry.*;
 
-/**
+/** concrete factory1
  * Created by dream on 08/04/2017.
  */
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory {

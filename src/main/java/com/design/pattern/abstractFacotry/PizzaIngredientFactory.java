@@ -1,6 +1,7 @@
 package com.design.pattern.abstractFacotry;
 
 /**
+ * abstract factory
  * Created by dream on 08/04/2017.
  */
 public interface PizzaIngredientFactory {
