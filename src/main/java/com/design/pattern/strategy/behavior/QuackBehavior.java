@@ -1,7 +1,7 @@
 package com.design.pattern.strategy.behavior;
 
 /**
- * Desc:
+ * Desc: 鸭叫
  *
  * @author: qihouying@meituan.com
  * @Date: 2017年02月12 00:39.

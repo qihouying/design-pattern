@@ -3,7 +3,7 @@ package com.design.pattern.strategy.behavior.impl;
 import com.design.pattern.strategy.behavior.QuackBehavior;
 
 /**
- * Desc:
+ * Desc:吱吱叫
  *
  * @author: qihouying@meituan.com
  * @Date: 2017年02月12 00:46.

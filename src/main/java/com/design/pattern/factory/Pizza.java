@@ -6,10 +6,10 @@ import java.util.ArrayList;
  * Created by dream on 08/04/2017.
  */
 public abstract class Pizza {
-    String name;
-    String dough;
-    String sauce;
-    ArrayList toppings = new ArrayList();
+    public String name;
+    public String dough;
+    public String sauce;
+    public ArrayList toppings = new ArrayList();
 
     void prepare() {
         System.out.println("Preparing " + name);
