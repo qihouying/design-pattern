@@ -1,9 +1,9 @@
 package com.design.pattern.strategy.test;
 
-import com.design.pattern.strategy.Duck;
-import com.design.pattern.strategy.behavior.impl.FlyRocketPowered;
-import com.design.pattern.strategy.impl.MallardDuck;
-import com.design.pattern.strategy.impl.ModelDuck;
+import com.design.pattern.strategy.Context.Duck;
+import com.design.pattern.strategy.ConcreteStrategy.FlyRocketPowered;
+import com.design.pattern.strategy.Context.impl.MallardDuck;
+import com.design.pattern.strategy.Context.impl.ModelDuck;
 
 /**
  * Desc:

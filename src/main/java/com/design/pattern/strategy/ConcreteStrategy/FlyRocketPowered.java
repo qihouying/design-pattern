@@ -1,6 +1,6 @@
-package com.design.pattern.strategy.behavior.impl;
+package com.design.pattern.strategy.ConcreteStrategy;
 
-import com.design.pattern.strategy.behavior.FlyBehavior;
+import com.design.pattern.strategy.FlyBehavior;
 
 /**
  * Desc:

@@ -1,11 +1,11 @@
-package com.design.pattern.strategy.impl;
+package com.design.pattern.strategy.Context.impl;
 
-import com.design.pattern.strategy.Duck;
-import com.design.pattern.strategy.behavior.impl.FlyWithWings;
-import com.design.pattern.strategy.behavior.impl.Quack;
+import com.design.pattern.strategy.Context.Duck;
+import com.design.pattern.strategy.ConcreteStrategy.FlyWithWings;
+import com.design.pattern.strategy.ConcreteStrategy.Quack;
 
 /**
- * Desc:
+ * Desc: 具体策略角色:包装了相关的算法和行为
  *
  * @author: qihouying@meituan.com
  * @Date: 2017年02月12 00:52.

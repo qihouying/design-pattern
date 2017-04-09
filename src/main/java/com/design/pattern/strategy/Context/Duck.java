@@ -1,10 +1,10 @@
-package com.design.pattern.strategy;
+package com.design.pattern.strategy.Context;
 
-import com.design.pattern.strategy.behavior.FlyBehavior;
-import com.design.pattern.strategy.behavior.QuackBehavior;
+import com.design.pattern.strategy.FlyBehavior;
+import com.design.pattern.strategy.QuackBehavior;
 
 /**
- * Desc:
+ * Desc: 拥有对strategy的引用
  *
  * @author: qihouying@meituan.com
  * @Date: 2017年02月12 00:35.

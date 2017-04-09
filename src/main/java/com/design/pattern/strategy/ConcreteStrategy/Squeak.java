@@ -1,6 +1,6 @@
-package com.design.pattern.strategy.behavior.impl;
+package com.design.pattern.strategy.ConcreteStrategy;
 
-import com.design.pattern.strategy.behavior.QuackBehavior;
+import com.design.pattern.strategy.QuackBehavior;
 
 /**
  * Desc:吱吱叫

@@ -1,7 +1,7 @@
-package com.design.pattern.strategy.behavior;
+package com.design.pattern.strategy;
 
 /**
- * Desc: 鸭叫
+ * Desc: 抽象策略角色:给出所有的具体策略类所需要的接口(鸭叫)
  *
  * @author: qihouying@meituan.com
  * @Date: 2017年02月12 00:39.
