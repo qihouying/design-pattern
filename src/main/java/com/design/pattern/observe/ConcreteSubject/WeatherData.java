@@ -1,4 +1,4 @@
-package com.design.pattern.observe.impl;
+package com.design.pattern.observe.concreteSubject;
 
 import com.design.pattern.observe.Observer;
 import com.design.pattern.observe.Subject;
